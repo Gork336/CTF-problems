@@ -1,0 +1,5 @@
+import{_ as s,r as a,o as t,c as o,a as e,b as r,d as c,e as i}from"./app-3b511de6.js";const l={},d=i(`<h1 id="hello-vuepress" tabindex="-1"><a class="header-anchor" href="#hello-vuepress" aria-hidden="true">#</a> Hello VuePress</h1><div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">npm</span> run docs:dev
+<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>
+<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">&#39;&#39;</span>
+<span class="token function">git</span> push
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,2),p={href:"https://v2.vuepress.vuejs.org/zh/",target:"_blank",rel:"noopener noreferrer"};function u(v,h){const n=a("ExternalLinkIcon");return t(),o("div",null,[d,e("p",null,[e("a",p,[r("VuePress"),c(n)])])])}const _=s(l,[["render",u],["__file","index.html.vue"]]);export{_ as default};

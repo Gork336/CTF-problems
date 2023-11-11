@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a as c}from"./app-3b511de6.js";const o={},s=c("p",null,"#文件包含 制作图片马 改后缀为php",-1),a=[s];function n(l,r){return t(),_("div",null,a)}const f=e(o,[["render",n],["__file","ez_talk.html.vue"]]);export{f as default};

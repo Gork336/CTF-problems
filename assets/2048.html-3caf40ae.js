@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0860d00c","path":"/2022/HNCTF%202022%20Week1/2048.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699718109000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2022/HNCTF 2022 Week1/2048.md"}');export{e as data};
