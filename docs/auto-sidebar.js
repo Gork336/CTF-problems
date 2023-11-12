@@ -1,17 +1,3 @@
-# Hello VuePress
-
-```bash
-npm run docs:dev
-git add .
-git commit -m ''
-git push
-```
-
-[VuePress](https://v2.vuepress.vuejs.org/zh/)
-
-## 生成侧边栏的脚本
-
-```js
 const fs = require("fs");
 const path = require("path");
 
@@ -72,4 +58,3 @@ const sidebarConfig = generateSidebarConfig("./docs");
 fs.writeFileSync("sidebarConfig.json", JSON.stringify(sidebarConfig, null, 2));
 
 console.log("侧边栏配置已写入 sidebarConfig.json 文件。");
-```

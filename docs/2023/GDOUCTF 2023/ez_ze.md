@@ -1,8 +1,8 @@
-#SSTI 
+#SSTI
 
 [[GDOUCTF 2023]ez_ze - bl0ck - 博客园 (cnblogs.com)](https://www.cnblogs.com/bl0ck/articles/17595237.html)
 
-被过滤：`{{` `}}` `popen` `_` `[` `]` `os` `getitem` `.` `"` 
+被过滤：`{{` `}}` `popen` `_` `[` `]` `os` `getitem` `.` `"`
 按照链接里的解法
 
 payload 原型
@@ -17,7 +17,7 @@ payload 原型
 {% print(lipsum|string|list) %}
 ```
 
-第十九个是下划线,这里要用pop来获取下划线。
+第十九个是下划线,这里要用 pop 来获取下划线。
 
 ```python
 {% set pop=dict(pop=1)|join %}
@@ -27,7 +27,7 @@ payload 原型
 
 获取反斜线，**lipsum**里面没有斜杠，在**config**里面发现有斜杠有点多可以写可脚本遍历一下
 
-第239个是斜杠
+第 239 个是斜杠
 
 ```python
 {% set pop=dict(pop=1)|join %}
@@ -48,7 +48,7 @@ payload 原型
 
 其他的就是依葫芦画瓢。
 
-完整的payload就是
+完整的 payload 就是
 
 ```python
 {% set pop=dict(pop=1)|join %}

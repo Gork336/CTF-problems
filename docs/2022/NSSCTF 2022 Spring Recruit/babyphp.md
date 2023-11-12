@@ -1,4 +1,5 @@
-#PHP  #MD5
+#PHP #MD5
+
 ```php
  <?php
 highlight_file(__FILE__);
@@ -22,11 +23,14 @@ if(isset($_POST['a'])&&!preg_match('/[0-9]/',$_POST['a'])&&intval($_POST['a'])){
 }
 ?>
 ```
+
 **intval()** 函数用于获取变量的整数值。
 payload:
+
 ```url
 a[]=1&b1[]=1&b2[]=2&c1=s878926199a&c2=s214587387a
 ```
+
 `a` 绕过数字
-`b` 绕过MD5
-`c` 绕过MD5+限定类型字符串
+`b` 绕过 MD5
+`c` 绕过 MD5+限定类型字符串

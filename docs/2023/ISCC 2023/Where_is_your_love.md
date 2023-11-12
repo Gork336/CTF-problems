@@ -8,10 +8,10 @@
 
 array_walk — 使用用户自定义函数对数组中的每个元素做回调处理,即对数组中的每个元素应用用户自定义函数
 
-__toString() 方法用于一个类被当成字符串时应怎样回应
+\_\_toString() 方法用于一个类被当成字符串时应怎样回应
 
-在对象中调用一个不可访问方法时，__call() 会被调用。
+在对象中调用一个不可访问方法时，\_\_call() 会被调用。
 
-读取不可访问（protected 或 private）或不存在的属性的值时，__get() 会被调用。
+读取不可访问（protected 或 private）或不存在的属性的值时，\_\_get() 会被调用。
 
-当对不可访问（protected 或 private）或不存在的属性调用 isset() 或 empty() 时，__isset() 会被调用。
+当对不可访问（protected 或 private）或不存在的属性调用 isset() 或 empty() 时，\_\_isset() 会被调用。

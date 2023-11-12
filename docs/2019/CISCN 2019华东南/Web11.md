@@ -1,6 +1,6 @@
 #SSTI
 
-页面中 API 写着 get IP 与 get XFF
+页面中 API 写着 get IP 与 get XFF  
 x-Forward-For 存在注入
 
 ```url

