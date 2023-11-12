@@ -1,1 +1,0 @@
-import{_ as e,o as _,c as t,a as c}from"./app-3b511de6.js";const o={},a=c("p",null,"#HTML flag 在 HTML 的注释里",-1),s=[a];function l(n,r){return _(),t("div",null,s)}const d=e(o,[["render",l],["__file","我Flag呢？.html.vue"]]);export{d as default};

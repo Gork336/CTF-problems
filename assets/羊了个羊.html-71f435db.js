@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e5ab4ed4","path":"/2023/ISCC%202023/%E7%BE%8A%E4%BA%86%E4%B8%AA%E7%BE%8A.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699798592000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2023/ISCC 2023/羊了个羊.md"}');export{e as data};

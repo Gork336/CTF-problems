@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as r}from"./app-bf957996.js";const _={},s=r("p",null,"robots.txt",-1),c=[s];function a(n,l){return t(),o("div",null,c)}const d=e(_,[["render",a],["__file","where are the robots.html.vue"]]);export{d as default};

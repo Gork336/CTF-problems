@@ -1,1 +1,0 @@
-import{_ as e,o as s,c as _,a as o}from"./app-3b511de6.js";const t={},c=o("p",null,"#Cookie伪造 session 伪造 是 flask，利用 flask-unsign ,--secret LiCTF",-1),n=[c];function a(l,r){return s(),_("div",null,n)}const f=e(t,[["render",a],["__file","Flag点击就送！.html.vue"]]);export{f as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7bf0d306","path":"/2023/LitCTF%202023/Follow%20me%20and%20hack%20me.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699798592000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2023/LitCTF 2023/Follow me and hack me.md"}');export{e as data};

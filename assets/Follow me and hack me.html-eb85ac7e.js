@@ -1,1 +1,0 @@
-import{_ as e,o,c as _,a as c}from"./app-3b511de6.js";const t={},a=c("p",null,"#HTTP GET 和 POST 传参",-1),n=[a];function l(s,r){return o(),_("div",null,n)}const d=e(t,[["render",l],["__file","Follow me and hack me.html.vue"]]);export{d as default};

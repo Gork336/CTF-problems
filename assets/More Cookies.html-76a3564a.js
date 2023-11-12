@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-61992b1a","path":"/picoCTF/Web%20Exploitation/More%20Cookies.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699718109000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"picoCTF/Web Exploitation/More Cookies.md"}');export{e as data};
