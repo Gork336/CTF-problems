@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-3b386d20","path":"/picoCTF/Web%20Exploitation/SOAP.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699798592000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"picoCTF/Web Exploitation/SOAP.md"}');export{t as data};

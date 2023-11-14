@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-313a7f48","path":"/picoCTF/Web%20Exploitation/Cookies.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699942479000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"picoCTF/Web Exploitation/Cookies.md"}');export{t as data};

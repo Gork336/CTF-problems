@@ -1,1 +1,0 @@
-import{_ as e,o,c,a as r}from"./app-bf957996.js";const s={},t=r("p",null,"User-Agent: picobrowser",-1),_=[t];function n(a,l){return o(),c("div",null,_)}const p=e(s,[["render",n],["__file","picobrowser.html.vue"]]);export{p as default};

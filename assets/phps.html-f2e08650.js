@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as c}from"./app-855cd45a.js";const o={},_=c("p",null,"phps即为 PHP Source 就是php的源代码文件，通常用于提供给用户（访问者）直接通过Web浏览器查看php代码的内容。",-1),p=[_];function n(r,a){return s(),t("div",null,p)}const h=e(o,[["render",n],["__file","phps.html.vue"]]);export{h as default};

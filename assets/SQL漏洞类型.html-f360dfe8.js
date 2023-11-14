@@ -1,0 +1,1 @@
+import{_ as e,o as _,c as o,a as t}from"./app-855cd45a.js";const c={},s=t("p",null,"数字型和字符型 SQL注入 报错注入 盲注 堆叠查询注入 联合查询注入 二次注入 Cookie注入 编码注入 XFF攻击 万能密码",-1),n=[s];function a(r,l){return _(),o("div",null,n)}const d=e(c,[["render",a],["__file","SQL漏洞类型.html.vue"]]);export{d as default};
