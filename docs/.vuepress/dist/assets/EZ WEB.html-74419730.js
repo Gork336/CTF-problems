@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-22cd60ab","path":"/2023/GDOUCTF%202023/EZ%20WEB.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699798592000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":2}]},"filePathRelative":"2023/GDOUCTF 2023/EZ WEB.md"}');export{t as data};

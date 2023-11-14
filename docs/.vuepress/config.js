@@ -1,8 +1,17 @@
 import { defaultTheme } from "@vuepress/theme-default";
+import { docsearchPlugin } from "@vuepress/plugin-docsearch";
 
 export default {
   base: "/CTF-problems/",
   title: "CTF-problems",
+  plugins: [
+    docsearchPlugin({
+      // 配置项
+      apiKey: "d5a57c077d3ddd82c9bbfc83325e4545",
+      indexName: "ctf-problems",
+      appId: "QW26KV5IKT",
+    }),
+  ],
   theme: defaultTheme({
     home: "/",
     // 在这里进行配置
