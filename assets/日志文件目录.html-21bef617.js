@@ -1,1 +1,0 @@
-import{_,o as c,c as o,a as e,b as t}from"./app-963a8eaf.js";const n={},s=e("p",null,[t("nginx："),e("code",null,"/var/log/nginx/access.log")],-1),a=[s];function l(r,d){return c(),o("div",null,a)}const f=_(n,[["render",l],["__file","日志文件目录.html.vue"]]);export{f as default};

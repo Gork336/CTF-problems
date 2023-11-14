@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-4d00e70b","path":"/picoCTF/Web%20Exploitation/caas.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699956951000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"picoCTF/Web Exploitation/caas.md"}');export{t as data};

@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-306388f6","path":"/2023/LitCTF%202023/1zjs.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699956951000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2023/LitCTF 2023/1zjs.md"}');export{t as data};
