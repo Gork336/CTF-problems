@@ -1,1 +1,0 @@
-import{_ as o,o as s,c,a as e,b as t}from"./app-1b1a51ce.js";const _={},n=e("p",null,"#代码审计",-1),a=e("p",null,[t("发现注释 Your gift just take it : "),e("code",null,"/f@k3f1ag.php"),t(" 查看 "),e("code",null,"f@k3f1ag.php"),t(" 是 jsfuck 编码 放到控制台运行即可")],-1),l=[n,a];function r(f,u){return s(),c("div",null,l)}const i=o(_,[["render",r],["__file","1zjs.html.vue"]]);export{i as default};

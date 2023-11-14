@@ -36,7 +36,7 @@ function generateSidebarConfig(dir) {
 
             competitionItem.children.push({
               text: problemName, // 问题名称作为侧边栏标题
-              link: `/${year}/${competition}/${problemName}.md`, // 问题文件的链接
+              link: `/${year}/${competition}/${problemName}`, // 问题文件的链接
             });
           });
 

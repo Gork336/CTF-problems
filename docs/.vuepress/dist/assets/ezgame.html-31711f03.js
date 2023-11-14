@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as l,a as e,b as o}from"./app-b6035c39.js";const s={},n=e("p",null,"#代码审计",-1),a=e("p",null,[o("要求 65 分以上给 flag，查看 "),e("code",null,"preload.js"),o(" 文件， 发现分数控制变量 "),e("code",null,"let scorePoint = 0;"),o(" 在控制台修改相关值即可")],-1),_=[n,a];function r(d,i){return c(),l("div",null,_)}const f=t(s,[["render",r],["__file","ezgame.html.vue"]]);export{f as default};

@@ -1,1 +1,0 @@
-import{_ as t,o as c,c as o,a as e,b as _}from"./app-1b1a51ce.js";const a={},n=e("p",null,[_("#PHP "),e("code",null,"__wakeup()"),_(" 绕过：php的特性，当序列化后对象的参数列表中成员个数和实际个数不符合时会绕过 "),e("code",null,"__weakup()")],-1),s=[n];function l(r,d){return c(),o("div",null,s)}const p=t(a,[["render",l],["__file","序列化.html.vue"]]);export{p as default};

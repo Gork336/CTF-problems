@@ -1,53 +1,5 @@
 [
   {
-    "text": ".image",
-    "collapsible": true,
-    "children": []
-  },
-  {
-    "text": ".vuepress",
-    "collapsible": true,
-    "children": [
-      {
-        "text": ".cache",
-        "collapsible": true,
-        "children": [
-          {
-            "text": "deps",
-            "link": "/.vuepress/.cache/deps.md"
-          }
-        ]
-      },
-      {
-        "text": ".temp",
-        "collapsible": true,
-        "children": [
-          {
-            "text": "internal",
-            "link": "/.vuepress/.temp/internal.md"
-          },
-          {
-            "text": "pages",
-            "link": "/.vuepress/.temp/pages.md"
-          },
-          {
-            "text": "styles",
-            "link": "/.vuepress/.temp/styles.md"
-          },
-          {
-            "text": "vite-root",
-            "link": "/.vuepress/.temp/vite-root.md"
-          }
-        ]
-      },
-      {
-        "text": "dist",
-        "collapsible": true,
-        "children": []
-      }
-    ]
-  },
-  {
     "text": "2018",
     "collapsible": true,
     "children": [
@@ -57,7 +9,7 @@
         "children": [
           {
             "text": "Warmup",
-            "link": "/2018/HCTF 2018/Warmup.md"
+            "link": "/2018/HCTF 2018/Warmup"
           }
         ]
       },
@@ -67,7 +19,7 @@
         "children": [
           {
             "text": "签到题",
-            "link": "/2018/NCTF 2018/签到题.md"
+            "link": "/2018/NCTF 2018/签到题"
           }
         ]
       }
@@ -83,7 +35,7 @@
         "children": [
           {
             "text": "Web11",
-            "link": "/2019/CISCN 2019华东南/Web11.md"
+            "link": "/2019/CISCN 2019华东南/Web11"
           }
         ]
       },
@@ -93,7 +45,7 @@
         "children": [
           {
             "text": "Web1",
-            "link": "/2019/CISCN 2019华北Day2/Web1.md"
+            "link": "/2019/CISCN 2019华北Day2/Web1"
           }
         ]
       },
@@ -103,11 +55,11 @@
         "children": [
           {
             "text": "BabyUpload",
-            "link": "/2019/GXYCTF 2019/BabyUpload.md"
+            "link": "/2019/GXYCTF 2019/BabyUpload"
           },
           {
             "text": "Ping Ping Ping",
-            "link": "/2019/GXYCTF 2019/Ping Ping Ping.md"
+            "link": "/2019/GXYCTF 2019/Ping Ping Ping"
           }
         ]
       },
@@ -117,7 +69,7 @@
         "children": [
           {
             "text": "EasySQL",
-            "link": "/2019/suctf 2019/EasySQL.md"
+            "link": "/2019/suctf 2019/EasySQL"
           }
         ]
       },
@@ -127,7 +79,7 @@
         "children": [
           {
             "text": "NiZhuanSiWei",
-            "link": "/2019/ZJCTF 2019/NiZhuanSiWei.md"
+            "link": "/2019/ZJCTF 2019/NiZhuanSiWei"
           }
         ]
       },
@@ -137,7 +89,7 @@
         "children": [
           {
             "text": "随便注",
-            "link": "/2019/强网杯 2019/随便注.md"
+            "link": "/2019/强网杯 2019/随便注"
           }
         ]
       }
@@ -153,7 +105,7 @@
         "children": [
           {
             "text": "easy_md5",
-            "link": "/2020/BJDCTF 2020/easy_md5.md"
+            "link": "/2020/BJDCTF 2020/easy_md5"
           }
         ]
       },
@@ -163,7 +115,7 @@
         "children": [
           {
             "text": "朴实无华",
-            "link": "/2020/WUSTCTF 2020/朴实无华.md"
+            "link": "/2020/WUSTCTF 2020/朴实无华"
           }
         ]
       },
@@ -173,7 +125,7 @@
         "children": [
           {
             "text": "easycon",
-            "link": "/2020/羊城杯 2020/easycon.md"
+            "link": "/2020/羊城杯 2020/easycon"
           }
         ]
       }
@@ -189,7 +141,7 @@
         "children": [
           {
             "text": "easycms",
-            "link": "/2021/GKCTF 2021/easycms.md"
+            "link": "/2021/GKCTF 2021/easycms"
           }
         ]
       },
@@ -199,87 +151,87 @@
         "children": [
           {
             "text": "babyrce",
-            "link": "/2021/SWPUCTF 2021 新生赛/babyrce.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/babyrce"
           },
           {
             "text": "caidao",
-            "link": "/2021/SWPUCTF 2021 新生赛/caidao.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/caidao"
           },
           {
             "text": "Do_you_know_http",
-            "link": "/2021/SWPUCTF 2021 新生赛/Do_you_know_http.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/Do_you_know_http"
           },
           {
             "text": "easyrce",
-            "link": "/2021/SWPUCTF 2021 新生赛/easyrce.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/easyrce"
           },
           {
             "text": "easyupload1.0",
-            "link": "/2021/SWPUCTF 2021 新生赛/easyupload1.0.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/easyupload1.0"
           },
           {
             "text": "easyupload2.0",
-            "link": "/2021/SWPUCTF 2021 新生赛/easyupload2.0.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/easyupload2.0"
           },
           {
             "text": "easyupload3.0",
-            "link": "/2021/SWPUCTF 2021 新生赛/easyupload3.0.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/easyupload3.0"
           },
           {
             "text": "easy_md5",
-            "link": "/2021/SWPUCTF 2021 新生赛/easy_md5.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/easy_md5"
           },
           {
             "text": "easy_sql",
-            "link": "/2021/SWPUCTF 2021 新生赛/easy_sql.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/easy_sql"
           },
           {
             "text": "error",
-            "link": "/2021/SWPUCTF 2021 新生赛/error.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/error"
           },
           {
             "text": "ez_unserialize",
-            "link": "/2021/SWPUCTF 2021 新生赛/ez_unserialize.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/ez_unserialize"
           },
           {
             "text": "finalrce",
-            "link": "/2021/SWPUCTF 2021 新生赛/finalrce.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/finalrce"
           },
           {
             "text": "gift_F12",
-            "link": "/2021/SWPUCTF 2021 新生赛/gift_F12.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/gift_F12"
           },
           {
             "text": "hardrce",
-            "link": "/2021/SWPUCTF 2021 新生赛/hardrce.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/hardrce"
           },
           {
             "text": "hardrce_3",
-            "link": "/2021/SWPUCTF 2021 新生赛/hardrce_3.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/hardrce_3"
           },
           {
             "text": "include",
-            "link": "/2021/SWPUCTF 2021 新生赛/include.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/include"
           },
           {
             "text": "jicao",
-            "link": "/2021/SWPUCTF 2021 新生赛/jicao.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/jicao"
           },
           {
             "text": "no_wakeup",
-            "link": "/2021/SWPUCTF 2021 新生赛/no_wakeup.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/no_wakeup"
           },
           {
             "text": "pop",
-            "link": "/2021/SWPUCTF 2021 新生赛/pop.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/pop"
           },
           {
             "text": "PseudoProtocols",
-            "link": "/2021/SWPUCTF 2021 新生赛/PseudoProtocols.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/PseudoProtocols"
           },
           {
             "text": "sql",
-            "link": "/2021/SWPUCTF 2021 新生赛/sql.md"
+            "link": "/2021/SWPUCTF 2021 新生赛/sql"
           }
         ]
       },
@@ -289,7 +241,7 @@
         "children": [
           {
             "text": "esay_eval",
-            "link": "/2021/天翼杯 2021/esay_eval.md"
+            "link": "/2021/天翼杯 2021/esay_eval"
           }
         ]
       },
@@ -299,19 +251,19 @@
         "children": [
           {
             "text": "EasyCleanup",
-            "link": "/2021/第五空间 2021/EasyCleanup.md"
+            "link": "/2021/第五空间 2021/EasyCleanup"
           },
           {
             "text": "pklovecloud",
-            "link": "/2021/第五空间 2021/pklovecloud.md"
+            "link": "/2021/第五空间 2021/pklovecloud"
           },
           {
             "text": "WebFTP",
-            "link": "/2021/第五空间 2021/WebFTP.md"
+            "link": "/2021/第五空间 2021/WebFTP"
           },
           {
             "text": "yet_another_mysql_injection",
-            "link": "/2021/第五空间 2021/yet_another_mysql_injection.md"
+            "link": "/2021/第五空间 2021/yet_another_mysql_injection"
           }
         ]
       },
@@ -321,11 +273,11 @@
         "children": [
           {
             "text": "EasyP",
-            "link": "/2021/鹤城杯 2021/EasyP.md"
+            "link": "/2021/鹤城杯 2021/EasyP"
           },
           {
             "text": "Middle magic",
-            "link": "/2021/鹤城杯 2021/Middle magic.md"
+            "link": "/2021/鹤城杯 2021/Middle magic"
           }
         ]
       }
@@ -341,7 +293,7 @@
         "children": [
           {
             "text": "cve版签到",
-            "link": "/2022/GKCTF 2020/cve版签到.md"
+            "link": "/2022/GKCTF 2020/cve版签到"
           }
         ]
       },
@@ -351,27 +303,27 @@
         "children": [
           {
             "text": "2048",
-            "link": "/2022/HNCTF 2022 Week1/2048.md"
+            "link": "/2022/HNCTF 2022 Week1/2048"
           },
           {
             "text": "easy_html",
-            "link": "/2022/HNCTF 2022 Week1/easy_html.md"
+            "link": "/2022/HNCTF 2022 Week1/easy_html"
           },
           {
             "text": "easy_upload",
-            "link": "/2022/HNCTF 2022 Week1/easy_upload.md"
+            "link": "/2022/HNCTF 2022 Week1/easy_upload"
           },
           {
             "text": "Interesting_http",
-            "link": "/2022/HNCTF 2022 Week1/Interesting_http.md"
+            "link": "/2022/HNCTF 2022 Week1/Interesting_http"
           },
           {
             "text": "Interesting_include",
-            "link": "/2022/HNCTF 2022 Week1/Interesting_include.md"
+            "link": "/2022/HNCTF 2022 Week1/Interesting_include"
           },
           {
             "text": "What is Web",
-            "link": "/2022/HNCTF 2022 Week1/What is Web.md"
+            "link": "/2022/HNCTF 2022 Week1/What is Web"
           }
         ]
       },
@@ -381,11 +333,11 @@
         "children": [
           {
             "text": "checkin",
-            "link": "/2022/HUBUCTF 2022 新生赛/checkin.md"
+            "link": "/2022/HUBUCTF 2022 新生赛/checkin"
           },
           {
             "text": "HowToGetShell",
-            "link": "/2022/HUBUCTF 2022 新生赛/HowToGetShell.md"
+            "link": "/2022/HUBUCTF 2022 新生赛/HowToGetShell"
           }
         ]
       },
@@ -395,11 +347,11 @@
         "children": [
           {
             "text": "required",
-            "link": "/2022/hxp CTF 2022/required.md"
+            "link": "/2022/hxp CTF 2022/required"
           },
           {
             "text": "valentine",
-            "link": "/2022/hxp CTF 2022/valentine.md"
+            "link": "/2022/hxp CTF 2022/valentine"
           }
         ]
       },
@@ -409,47 +361,47 @@
         "children": [
           {
             "text": "babyserialize",
-            "link": "/2022/NISACTF 2022/babyserialize.md"
+            "link": "/2022/NISACTF 2022/babyserialize"
           },
           {
             "text": "babyupload",
-            "link": "/2022/NISACTF 2022/babyupload.md"
+            "link": "/2022/NISACTF 2022/babyupload"
           },
           {
             "text": "bingdundun~",
-            "link": "/2022/NISACTF 2022/bingdundun~.md"
+            "link": "/2022/NISACTF 2022/bingdundun~"
           },
           {
             "text": "checkin",
-            "link": "/2022/NISACTF 2022/checkin.md"
+            "link": "/2022/NISACTF 2022/checkin"
           },
           {
             "text": "easyssrf",
-            "link": "/2022/NISACTF 2022/easyssrf.md"
+            "link": "/2022/NISACTF 2022/easyssrf"
           },
           {
             "text": "is secret",
-            "link": "/2022/NISACTF 2022/is secret.md"
+            "link": "/2022/NISACTF 2022/is secret"
           },
           {
             "text": "join-us",
-            "link": "/2022/NISACTF 2022/join-us.md"
+            "link": "/2022/NISACTF 2022/join-us"
           },
           {
             "text": "level-up",
-            "link": "/2022/NISACTF 2022/level-up.md"
+            "link": "/2022/NISACTF 2022/level-up"
           },
           {
             "text": "middlerce",
-            "link": "/2022/NISACTF 2022/middlerce.md"
+            "link": "/2022/NISACTF 2022/middlerce"
           },
           {
             "text": "midlevel",
-            "link": "/2022/NISACTF 2022/midlevel.md"
+            "link": "/2022/NISACTF 2022/midlevel"
           },
           {
             "text": "popchains",
-            "link": "/2022/NISACTF 2022/popchains.md"
+            "link": "/2022/NISACTF 2022/popchains"
           }
         ]
       },
@@ -459,11 +411,11 @@
         "children": [
           {
             "text": "babyphp",
-            "link": "/2022/NSSCTF 2022 Spring Recruit/babyphp.md"
+            "link": "/2022/NSSCTF 2022 Spring Recruit/babyphp"
           },
           {
             "text": "ezgame",
-            "link": "/2022/NSSCTF 2022 Spring Recruit/ezgame.md"
+            "link": "/2022/NSSCTF 2022 Spring Recruit/ezgame"
           }
         ]
       },
@@ -473,39 +425,39 @@
         "children": [
           {
             "text": "1z_unserialize",
-            "link": "/2022/SWPUCTF 2022 新生赛/1z_unserialize.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/1z_unserialize"
           },
           {
             "text": "ez_ez_php(revenge)",
-            "link": "/2022/SWPUCTF 2022 新生赛/ez_ez_php(revenge).md"
+            "link": "/2022/SWPUCTF 2022 新生赛/ez_ez_php(revenge)"
           },
           {
             "text": "ez_ez_php",
-            "link": "/2022/SWPUCTF 2022 新生赛/ez_ez_php.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/ez_ez_php"
           },
           {
             "text": "ez_ez_unserialize",
-            "link": "/2022/SWPUCTF 2022 新生赛/ez_ez_unserialize.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/ez_ez_unserialize"
           },
           {
             "text": "ez_rce",
-            "link": "/2022/SWPUCTF 2022 新生赛/ez_rce.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/ez_rce"
           },
           {
             "text": "js_sign",
-            "link": "/2022/SWPUCTF 2022 新生赛/js_sign.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/js_sign"
           },
           {
             "text": "numgame",
-            "link": "/2022/SWPUCTF 2022 新生赛/numgame.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/numgame"
           },
           {
             "text": "where_am_i",
-            "link": "/2022/SWPUCTF 2022 新生赛/where_am_i.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/where_am_i"
           },
           {
             "text": "奇妙的MD5",
-            "link": "/2022/SWPUCTF 2022 新生赛/奇妙的MD5.md"
+            "link": "/2022/SWPUCTF 2022 新生赛/奇妙的MD5"
           }
         ]
       },
@@ -515,11 +467,11 @@
         "children": [
           {
             "text": "ez_rce",
-            "link": "/2022/UUCTF 2022 新生赛/ez_rce.md"
+            "link": "/2022/UUCTF 2022 新生赛/ez_rce"
           },
           {
             "text": "websign",
-            "link": "/2022/UUCTF 2022 新生赛/websign.md"
+            "link": "/2022/UUCTF 2022 新生赛/websign"
           }
         ]
       }
@@ -535,23 +487,23 @@
         "children": [
           {
             "text": "EZ WEB",
-            "link": "/2023/GDOUCTF 2023/EZ WEB.md"
+            "link": "/2023/GDOUCTF 2023/EZ WEB"
           },
           {
             "text": "ez_ze",
-            "link": "/2023/GDOUCTF 2023/ez_ze.md"
+            "link": "/2023/GDOUCTF 2023/ez_ze"
           },
           {
             "text": "hate eat snake",
-            "link": "/2023/GDOUCTF 2023/hate eat snake.md"
+            "link": "/2023/GDOUCTF 2023/hate eat snake"
           },
           {
             "text": "受不了一点",
-            "link": "/2023/GDOUCTF 2023/受不了一点.md"
+            "link": "/2023/GDOUCTF 2023/受不了一点"
           },
           {
             "text": "泄露的伪装",
-            "link": "/2023/GDOUCTF 2023/泄露的伪装.md"
+            "link": "/2023/GDOUCTF 2023/泄露的伪装"
           }
         ]
       },
@@ -561,11 +513,11 @@
         "children": [
           {
             "text": "SearchMaster",
-            "link": "/2023/HDCTF 2023/SearchMaster.md"
+            "link": "/2023/HDCTF 2023/SearchMaster"
           },
           {
             "text": "Welcome To HDCTF 2023",
-            "link": "/2023/HDCTF 2023/Welcome To HDCTF 2023.md"
+            "link": "/2023/HDCTF 2023/Welcome To HDCTF 2023"
           }
         ]
       },
@@ -575,11 +527,11 @@
         "children": [
           {
             "text": "Where_is_your_love",
-            "link": "/2023/ISCC 2023/Where_is_your_love.md"
+            "link": "/2023/ISCC 2023/Where_is_your_love"
           },
           {
             "text": "羊了个羊",
-            "link": "/2023/ISCC 2023/羊了个羊.md"
+            "link": "/2023/ISCC 2023/羊了个羊"
           }
         ]
       },
@@ -589,51 +541,51 @@
         "children": [
           {
             "text": "1zjs",
-            "link": "/2023/LitCTF 2023/1zjs.md"
+            "link": "/2023/LitCTF 2023/1zjs"
           },
           {
             "text": "Flag点击就送！",
-            "link": "/2023/LitCTF 2023/Flag点击就送！.md"
+            "link": "/2023/LitCTF 2023/Flag点击就送！"
           },
           {
             "text": "Follow me and hack me",
-            "link": "/2023/LitCTF 2023/Follow me and hack me.md"
+            "link": "/2023/LitCTF 2023/Follow me and hack me"
           },
           {
             "text": "Http pro max plus",
-            "link": "/2023/LitCTF 2023/Http pro max plus.md"
+            "link": "/2023/LitCTF 2023/Http pro max plus"
           },
           {
             "text": "PHP是世界上最好的语言！！",
-            "link": "/2023/LitCTF 2023/PHP是世界上最好的语言！！.md"
+            "link": "/2023/LitCTF 2023/PHP是世界上最好的语言！！"
           },
           {
             "text": "Ping",
-            "link": "/2023/LitCTF 2023/Ping.md"
+            "link": "/2023/LitCTF 2023/Ping"
           },
           {
             "text": "Vim yyds",
-            "link": "/2023/LitCTF 2023/Vim yyds.md"
+            "link": "/2023/LitCTF 2023/Vim yyds"
           },
           {
             "text": "作业管理系统",
-            "link": "/2023/LitCTF 2023/作业管理系统.md"
+            "link": "/2023/LitCTF 2023/作业管理系统"
           },
           {
             "text": "导弹迷踪",
-            "link": "/2023/LitCTF 2023/导弹迷踪.md"
+            "link": "/2023/LitCTF 2023/导弹迷踪"
           },
           {
             "text": "我Flag呢？",
-            "link": "/2023/LitCTF 2023/我Flag呢？.md"
+            "link": "/2023/LitCTF 2023/我Flag呢？"
           },
           {
             "text": "简单包含",
-            "link": "/2023/LitCTF 2023/简单包含.md"
+            "link": "/2023/LitCTF 2023/简单包含"
           },
           {
             "text": "这是什么？SQL ！注一下 ！",
-            "link": "/2023/LitCTF 2023/这是什么？SQL ！注一下 ！.md"
+            "link": "/2023/LitCTF 2023/这是什么？SQL ！注一下 ！"
           }
         ]
       },
@@ -643,19 +595,19 @@
         "children": [
           {
             "text": "colorful_snake",
-            "link": "/2023/SWPU NSS 秋季招新赛/colorful_snake.md"
+            "link": "/2023/SWPU NSS 秋季招新赛/colorful_snake"
           },
           {
             "text": "ez_talk",
-            "link": "/2023/SWPU NSS 秋季招新赛/ez_talk.md"
+            "link": "/2023/SWPU NSS 秋季招新赛/ez_talk"
           },
           {
             "text": "NSS_HTTP_CHEKER",
-            "link": "/2023/SWPU NSS 秋季招新赛/NSS_HTTP_CHEKER.md"
+            "link": "/2023/SWPU NSS 秋季招新赛/NSS_HTTP_CHEKER"
           },
           {
             "text": "一键连接!",
-            "link": "/2023/SWPU NSS 秋季招新赛/一键连接!.md"
+            "link": "/2023/SWPU NSS 秋季招新赛/一键连接!"
           }
         ]
       }
@@ -671,268 +623,47 @@
         "children": [
           {
             "text": "web10",
-            "link": "/ctfshow/web/web10.md"
+            "link": "/ctfshow/web/web10"
           },
           {
             "text": "web11",
-            "link": "/ctfshow/web/web11.md"
+            "link": "/ctfshow/web/web11"
           },
           {
             "text": "web2",
-            "link": "/ctfshow/web/web2.md"
+            "link": "/ctfshow/web/web2"
           },
           {
             "text": "web3",
-            "link": "/ctfshow/web/web3.md"
+            "link": "/ctfshow/web/web3"
           },
           {
             "text": "web4",
-            "link": "/ctfshow/web/web4.md"
+            "link": "/ctfshow/web/web4"
           },
           {
             "text": "web5",
-            "link": "/ctfshow/web/web5.md"
+            "link": "/ctfshow/web/web5"
           },
           {
             "text": "web6",
-            "link": "/ctfshow/web/web6.md"
+            "link": "/ctfshow/web/web6"
           },
           {
             "text": "web7",
-            "link": "/ctfshow/web/web7.md"
+            "link": "/ctfshow/web/web7"
           },
           {
             "text": "web8",
-            "link": "/ctfshow/web/web8.md"
+            "link": "/ctfshow/web/web8"
           },
           {
             "text": "web9",
-            "link": "/ctfshow/web/web9.md"
+            "link": "/ctfshow/web/web9"
           },
           {
             "text": "web签到题",
-            "link": "/ctfshow/web/web签到题.md"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "text": "picoCTF",
-    "collapsible": true,
-    "children": [
-      {
-        "text": "Web Exploitation",
-        "collapsible": true,
-        "children": [
-          {
-            "text": "caas",
-            "link": "/picoCTF/Web Exploitation/caas.md"
-          },
-          {
-            "text": "Client-side-again",
-            "link": "/picoCTF/Web Exploitation/Client-side-again.md"
-          },
-          {
-            "text": "Cookies",
-            "link": "/picoCTF/Web Exploitation/Cookies.md"
-          },
-          {
-            "text": "dont-use-client-side",
-            "link": "/picoCTF/Web Exploitation/dont-use-client-side.md"
-          },
-          {
-            "text": "findme",
-            "link": "/picoCTF/Web Exploitation/findme.md"
-          },
-          {
-            "text": "Forbidden Paths",
-            "link": "/picoCTF/Web Exploitation/Forbidden Paths.md"
-          },
-          {
-            "text": "GET aHEAD",
-            "link": "/picoCTF/Web Exploitation/GET aHEAD.md"
-          },
-          {
-            "text": "Includes",
-            "link": "/picoCTF/Web Exploitation/Includes.md"
-          },
-          {
-            "text": "Insp3ct0r",
-            "link": "/picoCTF/Web Exploitation/Insp3ct0r.md"
-          },
-          {
-            "text": "Inspect HTML",
-            "link": "/picoCTF/Web Exploitation/Inspect HTML.md"
-          },
-          {
-            "text": "It is my Birthday",
-            "link": "/picoCTF/Web Exploitation/It is my Birthday.md"
-          },
-          {
-            "text": "Local Authority",
-            "link": "/picoCTF/Web Exploitation/Local Authority.md"
-          },
-          {
-            "text": "login",
-            "link": "/picoCTF/Web Exploitation/login.md"
-          },
-          {
-            "text": "logon",
-            "link": "/picoCTF/Web Exploitation/logon.md"
-          },
-          {
-            "text": "MatchTheRegex",
-            "link": "/picoCTF/Web Exploitation/MatchTheRegex.md"
-          },
-          {
-            "text": "More Cookies",
-            "link": "/picoCTF/Web Exploitation/More Cookies.md"
-          },
-          {
-            "text": "Most Cookies",
-            "link": "/picoCTF/Web Exploitation/Most Cookies.md"
-          },
-          {
-            "text": "picobrowser",
-            "link": "/picoCTF/Web Exploitation/picobrowser.md"
-          },
-          {
-            "text": "Power Cookie",
-            "link": "/picoCTF/Web Exploitation/Power Cookie.md"
-          },
-          {
-            "text": "Roboto Sans",
-            "link": "/picoCTF/Web Exploitation/Roboto Sans.md"
-          },
-          {
-            "text": "Scavenger Hunt",
-            "link": "/picoCTF/Web Exploitation/Scavenger Hunt.md"
-          },
-          {
-            "text": "Search source",
-            "link": "/picoCTF/Web Exploitation/Search source.md"
-          },
-          {
-            "text": "Secrets",
-            "link": "/picoCTF/Web Exploitation/Secrets.md"
-          },
-          {
-            "text": "SOAP",
-            "link": "/picoCTF/Web Exploitation/SOAP.md"
-          },
-          {
-            "text": "Some Assembly Required 1",
-            "link": "/picoCTF/Web Exploitation/Some Assembly Required 1.md"
-          },
-          {
-            "text": "Some Assembly Required 2",
-            "link": "/picoCTF/Web Exploitation/Some Assembly Required 2.md"
-          },
-          {
-            "text": "Some Assembly Required 3",
-            "link": "/picoCTF/Web Exploitation/Some Assembly Required 3.md"
-          },
-          {
-            "text": "Some Assembly Required 4（未完成）",
-            "link": "/picoCTF/Web Exploitation/Some Assembly Required 4（未完成）.md"
-          },
-          {
-            "text": "SQL Direct",
-            "link": "/picoCTF/Web Exploitation/SQL Direct.md"
-          },
-          {
-            "text": "Super Serial",
-            "link": "/picoCTF/Web Exploitation/Super Serial.md"
-          },
-          {
-            "text": "Web Gauntlet",
-            "link": "/picoCTF/Web Exploitation/Web Gauntlet.md"
-          },
-          {
-            "text": "where are the robots",
-            "link": "/picoCTF/Web Exploitation/where are the robots.md"
-          },
-          {
-            "text": "Who are you",
-            "link": "/picoCTF/Web Exploitation/Who are you.md"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "text": "_tool",
-    "collapsible": true,
-    "children": []
-  },
-  {
-    "text": "_web",
-    "collapsible": true,
-    "children": [
-      {
-        "text": "JavaScript",
-        "collapsible": true,
-        "children": [
-          {
-            "text": "nodejs",
-            "link": "/_web/JavaScript/nodejs.md"
-          },
-          {
-            "text": "原型链污染",
-            "link": "/_web/JavaScript/原型链污染.md"
-          }
-        ]
-      },
-      {
-        "text": "PHP",
-        "collapsible": true,
-        "children": [
-          {
-            "text": "phps",
-            "link": "/_web/PHP/phps.md"
-          },
-          {
-            "text": "序列化",
-            "link": "/_web/PHP/序列化.md"
-          },
-          {
-            "text": "支持的协议和封装协议",
-            "link": "/_web/PHP/支持的协议和封装协议.md"
-          },
-          {
-            "text": "文件包含",
-            "link": "/_web/PHP/文件包含.md"
-          },
-          {
-            "text": "预定义变量",
-            "link": "/_web/PHP/预定义变量.md"
-          },
-          {
-            "text": "魔术常量",
-            "link": "/_web/PHP/魔术常量.md"
-          },
-          {
-            "text": "魔术方法",
-            "link": "/_web/PHP/魔术方法.md"
-          }
-        ]
-      },
-      {
-        "text": "SQL注入",
-        "collapsible": true,
-        "children": [
-          {
-            "text": "SQL数据库种类",
-            "link": "/_web/SQL注入/SQL数据库种类.md"
-          },
-          {
-            "text": "SQL注入",
-            "link": "/_web/SQL注入/SQL注入.md"
-          },
-          {
-            "text": "SQL漏洞类型",
-            "link": "/_web/SQL注入/SQL漏洞类型.md"
+            "link": "/ctfshow/web/web签到题"
           }
         ]
       }

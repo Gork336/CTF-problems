@@ -1,1 +1,0 @@
-import{_ as e,o,c,a as s}from"./app-1b1a51ce.js";const t={},_=s("p",null,"#代码审计 js 里有相关函数",-1),n=[_];function l(a,r){return o(),c("div",null,n)}const u=e(t,[["render",l],["__file","colorful_snake.html.vue"]]);export{u as default};
