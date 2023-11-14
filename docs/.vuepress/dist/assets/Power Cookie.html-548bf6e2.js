@@ -1,0 +1,1 @@
+import{_ as e,o,c as t,a as c}from"./app-b1c518ef.js";const _={},s=c("p",null,"把 cookie 里的 isAdmin 修改为1",-1),n=[s];function r(a,i){return o(),t("div",null,n)}const d=e(_,[["render",r],["__file","Power Cookie.html.vue"]]);export{d as default};

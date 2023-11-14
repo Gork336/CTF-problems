@@ -1,1 +1,0 @@
-import{_ as e,o,c as t,a as c}from"./app-b6035c39.js";const s={},_=c("p",null,"根据题目，发现有cookie，值为-1，修改cookie的值，过程中有不止一个包，都要改，发现显示文字不一样，burp suite，intruder，18的时候比较异常，得到flag",-1),n=[_];function r(a,i){return o(),t("div",null,n)}const u=e(s,[["render",r],["__file","Cookies.html.vue"]]);export{u as default};
