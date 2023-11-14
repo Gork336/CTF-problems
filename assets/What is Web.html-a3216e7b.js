@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1476492a","path":"/2022/HNCTF%202022%20Week1/What%20is%20Web.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699956951000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2022/HNCTF 2022 Week1/What is Web.md"}');export{e as data};

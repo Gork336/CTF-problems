@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-caf72fce","path":"/web/PHP/%E9%A2%84%E5%AE%9A%E4%B9%89%E5%8F%98%E9%87%8F.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699942479000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"_web/PHP/预定义变量.md"}');export{e as data};
