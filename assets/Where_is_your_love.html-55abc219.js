@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-70f0940a","path":"/2023/ISCC%202023/Where_is_your_love.html","title":"web-3","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699962587000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2023/ISCC 2023/Where_is_your_love.md"}');export{e as data};

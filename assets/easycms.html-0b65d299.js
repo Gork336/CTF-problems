@@ -1,1 +1,0 @@
-import{_ as s,o as t,c,a as e}from"./app-81cf5d26.js";const a={},n=e("p",null,"#文件下载",-1),o=e("p",null,"发现有 admin.php 尝试弱口令登录，最后得出是 admin，12345 进入后台发现可以导出主题，存在任意文件下载，不过需要 base64 这里直接尝试 /flag 是可以的，下载的文件 是 zip 后缀不过是纯文本的需要改后缀查看",-1),_=[n,o];function l(r,i){return t(),c("div",null,_)}const m=s(a,[["render",l],["__file","easycms.html.vue"]]);export{m as default};

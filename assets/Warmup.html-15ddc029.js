@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-cdec9f58","path":"/2018/HCTF%202018/Warmup.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699962587000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2018/HCTF 2018/Warmup.md"}');export{t as data};

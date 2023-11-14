@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-b30e5b42","path":"/2019/GXYCTF%202019/BabyUpload.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699962587000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2019/GXYCTF 2019/BabyUpload.md"}');export{t as data};

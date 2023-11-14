@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-3c24755b","path":"/web/PHP/%E9%AD%94%E6%9C%AF%E5%B8%B8%E9%87%8F.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699961779000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"_web/PHP/魔术常量.md"}');export{e as data};
