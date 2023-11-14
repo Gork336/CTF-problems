@@ -1,1 +1,0 @@
-import{_ as t,o as _,c as o,a as e}from"./app-bd32c210.js";const c={},s=e("p",null,"#文件包含",-1),n=e("p",null,"制作图片马 改后缀为 php",-1),l=[s,n];function a(r,d){return _(),o("div",null,l)}const p=t(c,[["render",a],["__file","ez_talk.html.vue"]]);export{p as default};

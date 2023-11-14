@@ -1,0 +1,1 @@
+import{_ as e,o as _,c as t,a as c}from"./app-1b1a51ce.js";const o={},s=c("p",null,"感觉像 MISC ，输入酒店电话即可，图片上的字是 山水间 古迹酒店",-1),a=[s];function n(r,l){return _(),t("div",null,a)}const m=e(o,[["render",n],["__file","where_am_i.html.vue"]]);export{m as default};
