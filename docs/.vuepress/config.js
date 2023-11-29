@@ -7,7 +7,7 @@ export default {
   plugins: [
     docsearchPlugin({
       // 配置项
-      apiKey: "d5a57c077d3ddd82c9bbfc83325e4545",
+      apiKey: "f4e7c6e0f4461a29beae7dfe6e9f1d3c",
       indexName: "ctf-problems",
       appId: "QW26KV5IKT",
     }),
