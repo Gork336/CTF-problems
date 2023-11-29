@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-01f9a5f2","path":"/2023/SWPU%20NSS%20%E7%A7%8B%E5%AD%A3%E6%8B%9B%E6%96%B0%E8%B5%9B/ez_talk.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701248654000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2023/SWPU NSS 秋季招新赛/ez_talk.md"}');export{t as data};

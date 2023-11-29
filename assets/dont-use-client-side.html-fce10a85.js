@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-95b64038","path":"/picoCTF/Web%20Exploitation/dont-use-client-side.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701248654000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"picoCTF/Web Exploitation/dont-use-client-side.md"}');export{t as data};

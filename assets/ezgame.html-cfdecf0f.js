@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7fc0ce4c","path":"/2022/NSSCTF%202022%20Spring%20Recruit/ezgame.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701248654000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2022/NSSCTF 2022 Spring Recruit/ezgame.md"}');export{e as data};

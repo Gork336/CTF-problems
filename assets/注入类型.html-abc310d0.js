@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-cd458076","path":"/%E6%B3%A8%E5%85%A5%E7%B1%BB%E5%9E%8B.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1699962587000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"注入类型.md"}');export{t as data};
