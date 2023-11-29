@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3ba92d3d","path":"/2022/NSSCTF%202022%20Spring%20Recruit/babyphp.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701251443000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"2022/NSSCTF 2022 Spring Recruit/babyphp.md"}');export{t as data};

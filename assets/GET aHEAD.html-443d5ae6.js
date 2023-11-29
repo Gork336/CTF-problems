@@ -1,1 +1,0 @@
-import{_ as e,o,c as t,a as s}from"./app-d4f08b22.js";const a={},c=s("p",null,"Maybe you have more than 2 choices Check out tools like Burpsuite to modify your requests and look at the responses 两种颜色切换请求分别是GET和POST 根据题目，请求HEAD",-1),n=[c];function r(_,l){return o(),t("div",null,n)}const i=e(a,[["render",r],["__file","GET aHEAD.html.vue"]]);export{i as default};

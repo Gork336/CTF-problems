@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-10bd54d8","path":"/WebAssembly.html","title":"WABT: The WebAssembly Binary Toolkit","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1701251443000,"contributors":[{"name":"Gork","email":"2404755921@qq.com","commits":1}]},"filePathRelative":"WebAssembly.md"}');export{e as data};
